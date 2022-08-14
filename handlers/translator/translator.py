@@ -40,7 +40,6 @@ async def main(event):
     if language["start"] and not event.message.message.startswith(".tr") and event.message.message:
         try:
             message = translator.translate(event.message.message, language["lang"])
-            print(message.service)
             await event.edit(message.result)
         except (exceptions.NoResult, exceptions.UnknownLanguage) as error:
             await event.delete()
