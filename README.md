@@ -19,11 +19,11 @@ ___
 ***В файлике config.py***
 
 
-- **api_hash - Указываете ваш api_hash**
+- **`api_hash` - Указываете ваш api_hash**
 
-- **api_id - Указываете ваш api_id**
+- **`api_id` - Указываете ваш api_id**
 
-**P.S. api_hash и api_id можно получить на сайте https://my.telegram.org/**
+**P.S. `api_hash` и `api_id` можно получить на сайте https://my.telegram.org/**
 ___
 
 ## Запуск
